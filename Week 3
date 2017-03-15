@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+int main()
+
+{
+	int ascii;
+
+	cout << "Enter an ASCII code: ";
+	cin >> ascii;
+	
+	if ((ascii > 0) && (ascii < 127))
+	{
+		cout << "The character is " << (char)ascii << endl;	
+	}
+	else
+	{
+		cout << "Wrong ASCII code"; 
+	}
+	
+	return 0;
+	
+}
