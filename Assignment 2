@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+double fah;
+
+cout << "Please input fahrenheit degrees " << endl;
+cin >> fah;
+fah = fah * ( 9.0 / 5.0 );
+fah = fah + 32;
+cout << "Fahrenheit degrees converted to celcius is " << fah << endl;
+
+return 0;
+}
