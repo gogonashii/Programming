@@ -1,2 +1,2 @@
-# Temperature-CISP-31
+# Programming Practice
 Assignment # 2
